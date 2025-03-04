@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.satergo.jledger",
+    "module": "transport-hid4java",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.satergo.jledger",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.hid4java",
+          "module": "hid4java",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transport-hid4java-0.0.1-SNAPSHOT.jar",
+          "url": "transport-hid4java-0.0.1-SNAPSHOT.jar",
+          "size": 3728,
+          "sha512": "35bd3c67d03f9e126181b4f4887f62d4f76eac2823565c72159b2755231c7485a8ceb34f3cdc01428b259934021ff7d831491fecaa56472f8ff1e0ceb40a2a24",
+          "sha256": "ad4b101e88d6135196a9c142b460dc3596feba9cf264bbb7924979a651028d7a",
+          "sha1": "00bcba072f9f8fbe361b0ae6aad1983fb7444770",
+          "md5": "41eae481e980910721b907270fc6f81b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.satergo.jledger",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.hid4java",
+          "module": "hid4java",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transport-hid4java-0.0.1-SNAPSHOT.jar",
+          "url": "transport-hid4java-0.0.1-SNAPSHOT.jar",
+          "size": 3728,
+          "sha512": "35bd3c67d03f9e126181b4f4887f62d4f76eac2823565c72159b2755231c7485a8ceb34f3cdc01428b259934021ff7d831491fecaa56472f8ff1e0ceb40a2a24",
+          "sha256": "ad4b101e88d6135196a9c142b460dc3596feba9cf264bbb7924979a651028d7a",
+          "sha1": "00bcba072f9f8fbe361b0ae6aad1983fb7444770",
+          "md5": "41eae481e980910721b907270fc6f81b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transport-hid4java-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "transport-hid4java-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 99594,
+          "sha512": "34f12e27d820e89eb30a99cb394ade15bc7f8a34f8079a8776d345a1ebee90bae26f5ee7f5278613847cd67245cd1ba1286cb96032e00b39757a015680ca87d7",
+          "sha256": "65d460ad5a38ba3e55e97fed4b936e4349671dcd814ce49de3478cc25ea5c45d",
+          "sha1": "9d44fb92f1692c87f9e969a9aa23ab17522834bc",
+          "md5": "c9746a45c85a3b6370b3a5e32a937990"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "transport-hid4java-0.0.1-SNAPSHOT-sources.jar",
+          "url": "transport-hid4java-0.0.1-SNAPSHOT-sources.jar",
+          "size": 2995,
+          "sha512": "074899f543c1543907adcdf089aeba8dc5670d13945bcf845cbf60695caea356df996a93afd2f1db6678983cd56be2a49f7ef98fff792dc6637ec9b79729ac54",
+          "sha256": "6a5d3c55782d72bbddb5d54373f5b9da86b1437d1d2007ad5940d54fd2e484ee",
+          "sha1": "b01ada52569debbd1ceff486a59f3e5a65175669",
+          "md5": "e3b24a034214cf7ea8721b76132e2e89"
+        }
+      ]
+    }
+  ]
+}

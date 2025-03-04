@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.satergo",
+    "module": "blessed-android",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "blessed-android-1.0.aar",
+          "url": "blessed-android-1.0.aar",
+          "size": 139136,
+          "sha512": "9d2232e3b7022d188c97cbb0eaf3956abe567f8cd2304e1a29a88b1034be7ac3ebabaabdf31e0ebad0904dcff8c98ecac846e3802d04e8dacf48640d1438465c",
+          "sha256": "50c6994407b09673325977a30724f490e1c68c1a7f612a3972c1a3d056e43f98",
+          "sha1": "55d65654403647fbe0aff7afc6975f521f590659",
+          "md5": "19509408bcd5817b0f1cbfeddf8ecf4f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "20.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "blessed-android-1.0.aar",
+          "url": "blessed-android-1.0.aar",
+          "size": 139136,
+          "sha512": "9d2232e3b7022d188c97cbb0eaf3956abe567f8cd2304e1a29a88b1034be7ac3ebabaabdf31e0ebad0904dcff8c98ecac846e3802d04e8dacf48640d1438465c",
+          "sha256": "50c6994407b09673325977a30724f490e1c68c1a7f612a3972c1a3d056e43f98",
+          "sha1": "55d65654403647fbe0aff7afc6975f521f590659",
+          "md5": "19509408bcd5817b0f1cbfeddf8ecf4f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blessed-android-1.0-sources.jar",
+          "url": "blessed-android-1.0-sources.jar",
+          "size": 69906,
+          "sha512": "26e2246f7215c013a16f214c465e0c3134d3868c7832ce6de921674be82a77fe8a95e0d47784d8445a4896606f39fc4e35a98a07219167f748eef73701db77d2",
+          "sha256": "f5a962e32b5dc81dc3cde49bf604de6cab07859613894f522c4bf9ca5e5532f5",
+          "sha1": "09c8faabc620def838760a2f0d352127649318ab",
+          "md5": "d9f5e33e59de8806a541c89378849c1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "blessed-android-1.0-javadoc.jar",
+          "url": "blessed-android-1.0-javadoc.jar",
+          "size": 418758,
+          "sha512": "df65f105e278d431256e0f7f9b21517a01c9c275df21f1e0497678efb14af09ece9b0c62402286578af7b6064c0aa2257dbb870328a5d20850689967195fe8db",
+          "sha256": "711f66a2178aba256436eb70e73331f5cd6913d402604b0261993fd9313e4b90",
+          "sha1": "0f1a4ed48f6d413b953b4067df7e02202210a25a",
+          "md5": "6cb762ca95c98f16961f52f6c6c4a9be"
+        }
+      ]
+    }
+  ]
+}

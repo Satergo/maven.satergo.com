@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.satergo.jledger",
+    "module": "protocol-ergo",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.satergo.jledger",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-ergo-0.0.1-SNAPSHOT.jar",
+          "url": "protocol-ergo-0.0.1-SNAPSHOT.jar",
+          "size": 19412,
+          "sha512": "e3904cc7cfe023408d70e3262ac0a961f803efbee267b91aa2247c4c650f69335de9f6d848a2af55eca42b5b8a615ca0d8ed941d8ead4b8baecabd4d0bb43afc",
+          "sha256": "9bfa1e9902e49a8eccb0901496f20c0730938ad548e32e3fb52d5c3d6381b9b1",
+          "sha1": "d12521b5d7bf09eb2eee043e6a68dcb70efb1d12",
+          "md5": "2cb4ba82801a6811f4eec1a3b9f2182a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.satergo.jledger",
+          "module": "core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-ergo-0.0.1-SNAPSHOT.jar",
+          "url": "protocol-ergo-0.0.1-SNAPSHOT.jar",
+          "size": 19412,
+          "sha512": "e3904cc7cfe023408d70e3262ac0a961f803efbee267b91aa2247c4c650f69335de9f6d848a2af55eca42b5b8a615ca0d8ed941d8ead4b8baecabd4d0bb43afc",
+          "sha256": "9bfa1e9902e49a8eccb0901496f20c0730938ad548e32e3fb52d5c3d6381b9b1",
+          "sha1": "d12521b5d7bf09eb2eee043e6a68dcb70efb1d12",
+          "md5": "2cb4ba82801a6811f4eec1a3b9f2182a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "protocol-ergo-0.0.1-SNAPSHOT-javadoc.jar",
+          "url": "protocol-ergo-0.0.1-SNAPSHOT-javadoc.jar",
+          "size": 143404,
+          "sha512": "65986d927b07a683b9a489512b4286c5567effbd289aa6dbcb653522c29912a75cf4efbf77f57007c12f4469b97aa6937a4cc78066274923493f39e53f251ffa",
+          "sha256": "82e85e0bac8ef82f10d4f33a46cbccccfdbd1af32804aa83e302988fbcff12db",
+          "sha1": "5a00848e8a18a1a9dba622b84b4be99133e1c3b8",
+          "md5": "3809477e02112e893d0aa3ae398ab298"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "protocol-ergo-0.0.1-SNAPSHOT-sources.jar",
+          "url": "protocol-ergo-0.0.1-SNAPSHOT-sources.jar",
+          "size": 7227,
+          "sha512": "3dac0a93532f96e638b1fdfb83b8b7f61955621fbbdb3211cd97d647655ab8f1bc9c445fe91b5f3fd0d530eb7152f2d382dd2333d2d709c3a922168fc1daa284",
+          "sha256": "a5e702339b232aa62cfce71ef5db82df5e511aa689c38534b42b0a7fa5bc0f3d",
+          "sha1": "cd472cd0eaf87cb5ee53cff88bed3115d14ff335",
+          "md5": "cf08e5c7d5a184c84a7b3cef4add8e60"
+        }
+      ]
+    }
+  ]
+}
